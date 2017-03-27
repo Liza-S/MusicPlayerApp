@@ -19,6 +19,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="stop"
-        android:text="Stop" />
+        android:text="Pause" />
+
+    <Button
+        android:id="@+id/duration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="duration"
+        android:text="Duration" />
 
 </LinearLayout>
